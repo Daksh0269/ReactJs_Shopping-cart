@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    
+}
+.navbar::-webkit-scrollbar { 
+    width: 10px; 
+    height: 5px;
+} 
+
+.navbar::-webkit-scrollbar-track { 
+    background: #f1f1f1; 
+} 
+
+.navbar::-webkit-scrollbar-thumb { 
+    background: #888; 
+} 
+
+.navbar::-webkit-scrollbar-thumb:hover { 
+    background: #555; 
+} 
+
+.navbar::-webkit-scrollbar-button { 
+    display: none; 
+}
+
+.filter-products::-webkit-scrollbar { 
+    width: 10px; 
+    height: 5px;
+} 
+
+.filter-products::-webkit-scrollbar-track { 
+    background: #f1f1f1; 
+} 
+
+.filter-products::-webkit-scrollbar-thumb { 
+    background: #888; 
+} 
+
+.filter-products::-webkit-scrollbar-thumb:hover { 
+    background: #555; 
+} 
+
+.filter-products::-webkit-scrollbar-button { 
+    display: none; 
+}
+
+.itemcontainer {
+    width: 300px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    font-weight: 600;
+}
+
+.img-box {
+    width: 200px;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -31px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.img {
+    object-fit: contain;
+
+}
+.itemcontainer:hover{
+    scale: 1.2;
+    border: none;
+    transition: scale 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.your_cart_text{
+    font-size: 18px;
+    text-shadow: 0px 0px 1px black;
+}
+.show{
+    font-size: 20px;
+    font-weight: 450;
+    text-align: center;
+}
+.hide{
+    display: none;
+}

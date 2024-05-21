@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.navbar {
+    width: 100%;
+    height: 48px;
+    background-color: #181818;
+    position: relative;
+    z-index: 5;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    overflow: auto;
+}
+
+.logo {
+    font-size: 29px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.search {
+    border-radius: 5px;
+    width: 264px;
+    height: 36px;
+    box-sizing: border-box;
+    font-size: 22px;
+    border: 2px solid grey;
+
+}
+
+.empty {
+    width: 65px;
+    height: 33px;
+    
+}
+
+.cart {
+
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.home {
+
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.search {
+    width: 408px;
+    height: 36px;
+    box-sizing: border-box;
+    font-size: 22px;
+    padding-left: 17px;
+}
+
+.search-button {
+    width: 134px;
+    height: 34px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 450;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search-container {
+    width: 348px;
+    display: flex;
+    gap: 20px;
+}
+
+.cart_home_container {
+    gap: 25px;
+    display: flex;
+    padding-top: 6px;
+
+}
+
+.Login {
+    width: 101px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.empty1 {
+    width: 10px;
+}
+
+@media screen and (max-width: 604px) {
+    .home {
+        display: none;
+    }
+
+    .search {
+        width: 109%;
+        height: 28px;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .empty {
+        display: none;
+    }
+
+    .search-container {
+        width: 60%;
+    }
+
+    .logo {
+        font-size: 19px;
+    }
+    .cart_home_container{
+        padding: none;
+    }
+    .search-button{
+        font-size: smaller;
+        width: 48px;
+        height: 29px;
+        margin-top: 5px;
+        text-align: center;
+        padding: 0px;
+    }
+    .cart {
+        position: relative;
+        font-size: 17px;
+        top: 5px;
+        left: 10px;
+    }
+    .Login{
+        width: 40px;
+        height: 26px;
+        color: black;
+        border-radius: 3px;
+        display: none;
+    }
+    .home{
+        color: black;
+    }
+    .empty1{
+        display: none;
+    }
+    .filter-button {
+        font-size: 15px;
+    }
+}
